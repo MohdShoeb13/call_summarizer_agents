@@ -1,0 +1,30 @@
+# Render blueprint for call_summarizer_agents.
+# Single service: the FastAPI backend serves the built React SPA (same-origin),
+# so there is no separate Vercel frontend for this app.
+# Deploy: Render Dashboard -> New -> Blueprint -> pick this repo.
+services:
+  - type: web
+    name: call-summarizer
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    disk:
+      # SQLite database persists here across deploys.
+      name: call-summarizer-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: DATABASE_PATH
+        value: /data/calls.sqlite3
+      # Runs the 12 sample replays without a key; set this for real transcripts.
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PRIMARY_MODEL
+        value: gpt-4o-mini
+      - key: FALLBACK_MODEL
+        value: gpt-4o
+      - key: TRANSCRIPTION_MODEL
+        value: whisper-1
+      - key: WORKERS
+        value: "2"
