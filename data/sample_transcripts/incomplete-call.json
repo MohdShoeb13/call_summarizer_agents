@@ -1,0 +1,30 @@
+{
+  "id": "incomplete-call",
+  "title": "The interrupted call",
+  "scenario": "Incomplete · unknown",
+  "transcript": "Customer: Hello, I'm calling about something on my account.\nAgent: Of course. Can you tell me what happened?\nCustomer: It started when—",
+  "expected": {
+    "issue": "Unspecified account concern",
+    "key_points": [
+      "Unspecified account concern",
+      "Recording ends before the issue is explained."
+    ],
+    "resolution": "unknown",
+    "resolution_details": "Recording ends before the issue is explained.",
+    "action_items": [],
+    "tags": [
+      "Incomplete",
+      "unknown"
+    ],
+    "evidence_ids": [
+      1,
+      3
+    ]
+  },
+  "scores": [
+    null,
+    3,
+    3,
+    null
+  ]
+}

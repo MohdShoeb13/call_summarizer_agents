@@ -1,0 +1,30 @@
+{
+  "id": "cancellation",
+  "title": "A clean cancellation",
+  "scenario": "Subscription · resolved",
+  "transcript": "Customer: I want to cancel before the next billing date.\nAgent: Understood. I can cancel your renewal now.\nCustomer: Will access continue until the end of the month?\nAgent: Yes. Renewal is now disabled, and access continues until your current period ends.\nCustomer: I see it marked cancelled in my account.",
+  "expected": {
+    "issue": "Subscription cancellation request",
+    "key_points": [
+      "Subscription cancellation request",
+      "Renewal disabled and customer confirmed the account status."
+    ],
+    "resolution": "resolved",
+    "resolution_details": "Renewal disabled and customer confirmed the account status.",
+    "action_items": [],
+    "tags": [
+      "Subscription",
+      "resolved"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    3,
+    5,
+    4,
+    5
+  ]
+}

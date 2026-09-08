@@ -1,0 +1,32 @@
+{
+  "id": "payment-plan",
+  "title": "A little breathing room",
+  "scenario": "Payments · escalated",
+  "transcript": "Customer: I lost my job and cannot pay the full balance today.\nAgent: I'm sorry you're facing that. We can ask our support team to review a payment plan.\nCustomer: Will that stop late fees?\nAgent: I cannot promise that. The team will explain the terms before you agree.\nCustomer: Please arrange the review.",
+  "expected": {
+    "issue": "Payment assistance after job loss",
+    "key_points": [
+      "Payment assistance after job loss",
+      "Payment-plan review requested; terms and fee treatment remain undecided."
+    ],
+    "resolution": "escalated",
+    "resolution_details": "Payment-plan review requested; terms and fee treatment remain undecided.",
+    "action_items": [
+      "Support team to review payment-plan eligibility and explain terms."
+    ],
+    "tags": [
+      "Payments",
+      "escalated"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    5,
+    5,
+    5,
+    3
+  ]
+}

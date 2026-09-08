@@ -1,0 +1,32 @@
+{
+  "id": "unknown-speakers",
+  "title": "A recording without labels",
+  "scenario": "Unattributed · unknown",
+  "transcript": "The invoice still looks wrong.\nI will have the billing team check it.\nWhen should I expect a reply?\nI don't have a time yet.",
+  "expected": {
+    "issue": "Invoice accuracy concern",
+    "key_points": [
+      "Invoice accuracy concern",
+      "Billing review was mentioned, with no timeline or confirmed outcome. Speakers are unidentified."
+    ],
+    "resolution": "unknown",
+    "resolution_details": "Billing review was mentioned, with no timeline or confirmed outcome. Speakers are unidentified.",
+    "action_items": [
+      "Billing team to check the invoice."
+    ],
+    "tags": [
+      "Unattributed",
+      "unknown"
+    ],
+    "evidence_ids": [
+      1,
+      4
+    ]
+  },
+  "scores": [
+    null,
+    null,
+    null,
+    2
+  ]
+}

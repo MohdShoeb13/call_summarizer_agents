@@ -1,0 +1,32 @@
+{
+  "id": "billing-refund",
+  "title": "The duplicate charge",
+  "scenario": "Billing · resolved",
+  "transcript": "Customer: I was charged twice for my subscription this month.\nAgent: I'm sorry for the confusion. I can see two charges for the same period.\nCustomer: Can you return the extra payment?\nAgent: I've issued a refund for the duplicate charge. It should reach your account in five business days.\nCustomer: I received the refund confirmation. Thank you.\nAgent: You're welcome. Please contact us if it has not arrived after five business days.",
+  "expected": {
+    "issue": "Duplicate subscription charge",
+    "key_points": [
+      "Duplicate subscription charge",
+      "Refund was issued and the customer received confirmation; settlement is pending."
+    ],
+    "resolution": "resolved",
+    "resolution_details": "Refund was issued and the customer received confirmation; settlement is pending.",
+    "action_items": [
+      "Customer to check receipt of the refund after five business days."
+    ],
+    "tags": [
+      "Billing",
+      "resolved"
+    ],
+    "evidence_ids": [
+      1,
+      6
+    ]
+  },
+  "scores": [
+    5,
+    5,
+    5,
+    4
+  ]
+}

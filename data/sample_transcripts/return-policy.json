@@ -1,0 +1,32 @@
+{
+  "id": "return-policy",
+  "title": "Finding the return window",
+  "scenario": "Returns · resolved",
+  "transcript": "Customer: Can I return unopened headphones purchased last week?\nAgent: Yes. Unopened items are eligible within thirty days of purchase.\nCustomer: How do I start?\nAgent: Select Return in your order history to get a prepaid label.\nCustomer: The label downloaded successfully.",
+  "expected": {
+    "issue": "Return eligibility for unopened headphones",
+    "key_points": [
+      "Return eligibility for unopened headphones",
+      "Agent explained the stated policy and customer downloaded a return label; refund not yet completed."
+    ],
+    "resolution": "resolved",
+    "resolution_details": "Agent explained the stated policy and customer downloaded a return label; refund not yet completed.",
+    "action_items": [
+      "Customer to send the item using the return label."
+    ],
+    "tags": [
+      "Returns",
+      "resolved"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    3,
+    4,
+    4,
+    4
+  ]
+}

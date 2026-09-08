@@ -1,0 +1,32 @@
+{
+  "id": "ambiguous-outcome",
+  "title": "A fix without confirmation",
+  "scenario": "Technical · unknown",
+  "transcript": "Customer: The app crashes when I open a report.\nAgent: Please update the app and try again.\nCustomer: The update is downloading.\nAgent: Let me know whether that helps.",
+  "expected": {
+    "issue": "App crashes when opening a report",
+    "key_points": [
+      "App crashes when opening a report",
+      "An update was suggested but its effect was not confirmed."
+    ],
+    "resolution": "unknown",
+    "resolution_details": "An update was suggested but its effect was not confirmed.",
+    "action_items": [
+      "Customer to test the report after updating."
+    ],
+    "tags": [
+      "Technical",
+      "unknown"
+    ],
+    "evidence_ids": [
+      1,
+      4
+    ]
+  },
+  "scores": [
+    2,
+    3,
+    3,
+    2
+  ]
+}

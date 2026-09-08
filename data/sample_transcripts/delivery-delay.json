@@ -1,0 +1,32 @@
+{
+  "id": "delivery-delay",
+  "title": "A delivery gone quiet",
+  "scenario": "Shipping · escalated",
+  "transcript": "Customer: My package is four days late and tracking has stopped.\nAgent: I understand the delay is frustrating. Let me check the carrier record.\nCustomer: I need it for an event tomorrow.\nAgent: I cannot guarantee tomorrow's delivery. I am escalating this to logistics for an update today.\nCustomer: Please email the update.",
+  "expected": {
+    "issue": "Late package with stalled tracking",
+    "key_points": [
+      "Late package with stalled tracking",
+      "Logistics escalation promised; delivery and follow-up not confirmed."
+    ],
+    "resolution": "escalated",
+    "resolution_details": "Logistics escalation promised; delivery and follow-up not confirmed.",
+    "action_items": [
+      "Logistics to provide an update today by email."
+    ],
+    "tags": [
+      "Shipping",
+      "escalated"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    4,
+    4,
+    4,
+    3
+  ]
+}

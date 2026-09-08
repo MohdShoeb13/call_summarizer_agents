@@ -1,0 +1,30 @@
+{
+  "id": "address-change",
+  "title": "Getting the address right",
+  "scenario": "Account · resolved",
+  "transcript": "Customer: Can you update the address for my next delivery?\nAgent: You can securely edit it in your account settings before dispatch.\nCustomer: I've updated it there.\nAgent: I see the new address is saved for the next order.\nCustomer: Perfect, that's all I needed.",
+  "expected": {
+    "issue": "Delivery address update",
+    "key_points": [
+      "Delivery address update",
+      "Customer updated the address and agent confirmed it is saved."
+    ],
+    "resolution": "resolved",
+    "resolution_details": "Customer updated the address and agent confirmed it is saved.",
+    "action_items": [],
+    "tags": [
+      "Account",
+      "resolved"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    3,
+    5,
+    4,
+    5
+  ]
+}

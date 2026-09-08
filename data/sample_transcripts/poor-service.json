@@ -1,0 +1,32 @@
+{
+  "id": "poor-service",
+  "title": "When the conversation breaks",
+  "scenario": "Service · unresolved",
+  "transcript": "Customer: My internet has been dropping all morning.\nAgent: That's not our problem. Restart the router.\nCustomer: I already restarted it three times.\nAgent: Then I don't know what you expect me to do.\nCustomer: I want to speak with someone else.",
+  "expected": {
+    "issue": "Repeated internet disconnections",
+    "key_points": [
+      "Repeated internet disconnections",
+      "No troubleshooting beyond a previously attempted restart; customer requested another agent."
+    ],
+    "resolution": "unresolved",
+    "resolution_details": "No troubleshooting beyond a previously attempted restart; customer requested another agent.",
+    "action_items": [
+      "Arrange assistance from another agent."
+    ],
+    "tags": [
+      "Service",
+      "unresolved"
+    ],
+    "evidence_ids": [
+      1,
+      5
+    ]
+  },
+  "scores": [
+    1,
+    1,
+    1,
+    1
+  ]
+}
